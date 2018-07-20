@@ -479,7 +479,7 @@ class ADODB_pdo extends ADOConnection {
 	/* returns queryID or false */
 	function _query($sql,$inputarr=false)
 	{
-        $ok = false;
+		$ok = false;
 
 		if (is_array($sql)) {
 			$stmt = $sql[1];
